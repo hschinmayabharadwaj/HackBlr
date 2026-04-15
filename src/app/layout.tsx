@@ -5,8 +5,8 @@ import { FirebaseClientProvider } from '@/firebase';
 import { AppProviders } from '@/components/providers/app-providers';
 
 export const metadata: Metadata = {
-  title: 'ManasMitra - Mental Wellness Companion',
-  description: 'Your AI-powered, confidential, and empathetic mental wellness companion for daily check-ins, mindfulness, and emotional support.',
+  title: 'ManasMitra - Voice Access Companion',
+  description: 'A voice-first AI companion for accessibility, guided workflows, multilingual support, and context-aware assistance.',
   manifest: '/manifest.json',
   appleWebApp: {
     capable: true,
@@ -19,13 +19,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     siteName: 'ManasMitra',
-    title: 'ManasMitra - Mental Wellness Companion',
-    description: 'Your AI-powered mental wellness companion',
+    title: 'ManasMitra - Voice Access Companion',
+    description: 'A voice-first AI companion for accessibility and real-world tasks',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'ManasMitra',
-    description: 'Your AI-powered mental wellness companion',
+    description: 'A voice-first AI companion for accessibility and real-world tasks',
   },
 };
 

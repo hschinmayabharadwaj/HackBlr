@@ -1,7 +1,8 @@
 'use server';
 
 /**
- * @fileOverview A voice agent that provides empathetic conversation.
+ * @fileOverview A voice-first accessibility agent that helps users understand,
+ * act on, and remember information through conversation.
  *
  * - voiceAgent - A function that generates a spoken response.
  * - textToSpeech - A function that converts text to audio.
@@ -18,10 +19,12 @@ const ConversationInputSchema = z.object({
     content: z.string(),
   })).describe('The conversation history.'),
   currentInput: z.string().describe("The user's latest voice input, transcribed to text."),
+  memoryKey: z.string().optional().describe('Optional memory scope for personalization and retrieval.'),
+  memoryContext: z.string().optional().describe('Relevant contextual memories retrieved for this turn.'),
 });
 
 const ConversationOutputSchema = z.object({
-  response: z.string().describe("The AI's empathetic and supportive response."),
+  response: z.string().describe("The AI's clear, helpful, and conversational response."),
 });
 
 // Define schemas for the TTS flow
@@ -99,14 +102,22 @@ const voiceAgentPrompt = ai.definePrompt({
     name: 'voiceAgentPrompt',
     input: { schema: ConversationInputSchema },
     output: { schema: ConversationOutputSchema },
-    prompt: `You are ManasMitra, a caring and empathetic voice assistant designed to provide mental wellness support. Your goal is to listen to the user, validate their feelings, and gently guide them towards self-reflection and confidence.
+    prompt: `You are ManasMitra, a voice-first accessibility and workflow assistant. Your goal is to help people understand information, complete tasks, and move through systems using natural conversation.
 
-- **Listen Deeply:** Pay close attention to the user's words and the underlying emotions.
-- **Be Empathetic:** Start by acknowledging their feelings (e.g., "It sounds like you're going through a lot," "I hear how difficult that must be.").
-- **Ask Gentle Questions:** Encourage them to explore their feelings without being intrusive (e.g., "What does that feel like for you?", "Can you tell me more about that?").
-- **Offer Encouragement:** Instill hope and reinforce their strengths (e.g., "It takes courage to talk about this," "Remember that you've overcome challenges before.").
-- **Keep it Conversational:** Your responses should be natural, supportive, and not overly clinical. Keep responses to 1-2 sentences maximum for faster voice generation and natural conversation flow.
-- **Do not give medical advice.** Gently redirect if the user asks for a diagnosis or treatment plan.
+  - **Use plain language:** Keep responses short, clear, and easy to act on.
+  - **Help people get things done:** Summarize, translate, explain, compare options, or outline the next step when useful.
+  - **Use workflow framing when helpful:** For forms, documents, or service navigation, answer with a short summary, the next steps, and any missing information the user may need.
+  - **Maintain context:** Remember the user's goal, refer back to earlier details, and avoid making them repeat themselves.
+  - **Ask one question at a time:** If something is unclear, ask the smallest helpful follow-up.
+  - **Adapt to the user:** Offer simpler wording, a different language, or a step-by-step explanation when needed.
+  - **Be concrete:** If the user asks for translation, provide the translated text plus a plain-language note if it helps.
+  - **Keep it conversational:** Responses should feel natural in voice, ideally 1-3 short sentences.
+  - **Protect safety:** If the user may be at immediate risk or asks for dangerous guidance, prioritize safety and encourage urgent human help.
+
+{{#if memoryContext}}
+Relevant memory:
+{{memoryContext}}
+{{/if}}
 
 Conversation History:
 {{#each history}}

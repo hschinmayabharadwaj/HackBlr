@@ -1,50 +1,44 @@
-# 🧠 ManasMitra: An AI-Powered Mental Wellness Companion
+# 🧠 ManasMitra: A Voice-First Accessibility Companion
 
-**ManasMitra** is a confidential and empathetic AI-powered mental wellness application designed to support users on their well-being journey.  
-It provides a safe space for self-reflection, personalized encouragement, and access to supportive features through multi-modal AI interaction.
+**ManasMitra** is a voice-first AI companion designed to help people understand information, complete tasks, and access digital services with less friction.  
+It supports plain-language conversation, multilingual assistance, contextual follow-up, and hands-free interaction.
 
 ---
 
 ## 🌿 Overview
 
-ManasMitra goes beyond traditional chatbots — it’s built as an **Agentic AI System**, a network of specialized AI agents working collaboratively to enhance user mental wellness through proactive, context-aware, and emotionally intelligent support.
+ManasMitra goes beyond traditional chatbots — it’s built as an **Agentic AI System**, a network of specialized AI agents working collaboratively to enhance accessibility, context-aware guidance, and real-world task completion.
 
 ---
 
 ## ✨ Key Features
 
-### 🏠 Dashboard  
-A welcoming home screen that greets users personally and displays a unique, **AI-generated daily affirmation** to begin the day positively.
+### 🗣️ Voice Access  
+A natural voice interface for asking questions, getting summaries, translating content, and moving through steps without typing.
 
-### 💭 Daily Check-in  
-An intuitive, step-by-step flow allowing users to **log their mood and feelings**.  
-The AI assistant provides **empathetic feedback** and personalized suggestions based on emotional state.
+### 🌍 Multilingual Support  
+The assistant can rephrase content in simpler language or translate it into another language to support low-literacy and multilingual users.
 
-### 🗣️ Voice Agent  
-An interactive, **voice-powered AI companion** offering empathetic, natural conversations using:
-- Speech-to-text (via Web Speech API)
-- Text-to-speech (Gemini 2.5 Flash Preview TTS)
+### 🧭 Contextual Guidance  
+The agent keeps short conversational context so users can continue a task without repeating themselves.
 
-### 🧘 Mindfulness Sessions  
-Interactive guided meditation, breathing exercises, and mindful moments with customizable **duration and experience levels**.
+### ⚡ Workflow Assistance  
+Users can ask the assistant to explain an instruction, summarize a message, or identify the next step in a process.
 
-### 📈 Progress Tracking  
-Visual insights into mood trends over time to help users **recognize emotional patterns** and **celebrate growth**.
-
-### 🤝 Anonymous Support Forum  
-A safe, **anonymous community space** for sharing experiences, offering peer support, and connecting with others.
+### 🔒 Safety and Support  
+The app keeps a safety layer for high-risk situations and can redirect users to human help when needed.
 
 ---
 
 ## 🤖 Agentic AI System
 
 ### What Makes ManasMitra Agentic
-- 🧩 **Autonomous Decision-Making:** Each AI agent independently decides responses based on user context.  
-- 🎯 **Goal-Oriented Behavior:** All agents work toward improving user mental wellness.  
-- 🧠 **Multi-Agent Collaboration:** Specialized agents handle tasks like affirmation, empathy, and conversation flow.  
-- 💬 **Proactive Engagement:** The system not only responds but also suggests helpful actions or content.  
-- 🕊️ **Contextual Memory:** Maintains history and patterns for personalized interactions.  
-- 🌱 **Adaptive Responses:** Adjusts tone and behavior based on user emotions.
+- 🧩 **Autonomous Decision-Making:** The assistant adapts responses based on the user’s task and context.  
+- 🎯 **Goal-Oriented Behavior:** The system focuses on helping users understand, decide, and act.  
+- 🧠 **Multi-Agent Collaboration:** Specialized flows handle voice input, speech output, safety, and contextual responses.  
+- 💬 **Proactive Engagement:** The assistant suggests the next useful step instead of only answering questions.  
+- 🕊️ **Contextual Memory:** Conversation history is used to preserve continuity within an interaction.  
+- 🌱 **Adaptive Responses:** The assistant can simplify wording, reframe content, or switch language when needed.
 
 ---
 
@@ -52,12 +46,10 @@ A safe, **anonymous community space** for sharing experiences, offering peer sup
 
 | **Agent** | **Purpose** | **Key Capabilities** |
 |------------|-------------|----------------------|
-| **1. Voice Agent** | Real-time voice conversations | Speech recognition, empathetic dialogue, self-reflection guidance, helpline escalation |
-| **2. Chat Agent** | Text-based support | Emotional understanding, proactive suggestions, contextual flow |
-| **3. Daily Affirmation Agent** | Generate uplifting affirmations | Personalized, psychology-based daily encouragement |
-| **4. Empathetic Response Agent** | Handle daily check-ins | Emotional validation, personalized feedback |
-| **5. Story Analysis Agent** | Interpret user-created stories | Emotional insight through narrative analysis |
-| **6. Choice Analysis Agent** | Analyze decisions in activities | Behavioral pattern recognition and self-awareness feedback |
+| **Voice Agent** | Real-time voice conversations | Vapi orchestration, speech routing, task guidance |
+| **2. Chat Agent** | Text-based support | Context-aware explanations, summaries, and next-step guidance |
+| **3. Safety Agent** | Handle high-risk language | Emergency guidance and human escalation |
+| **4. Context Agent** | Preserve short-term memory | Qdrant-backed memory and retrieval |
 
 ### Agent Collaboration  
 - ⚙️ **Action Layer:** Coordinates communication among agents  
@@ -70,38 +62,36 @@ A safe, **anonymous community space** for sharing experiences, offering peer sup
 ## 🧠 Voice Agent Architecture
 User Speech Input
 ↓
-Browser Speech Recognition API
+Vapi Web Voice Orchestration
 ↓
-Text Transcription
+Assistant Response + Transcript Events
 ↓
-Voice Agent Flow (Gemini 2.5 Flash)
+Qdrant Memory Retrieval
 ↓
-AI Response Generation
+Context-Aware Response Generation
 ↓
-Text-to-Speech Flow (Gemini 2.5 Flash Preview TTS)
-↓
-Audio Generation & Playback
+Audio Playback / Live Voice Session
 ↓
 User Hears Response
 
 
 ### 🎧 Voice Agent Features  
 - Real-time bidirectional voice conversation  
-- Emotional and contextual awareness  
-- Conversation continuity and memory  
-- Privacy-first (no permanent data storage)  
-- Works across browsers supporting Web Speech API  
+- Contextual awareness and memory  
+- Conversation continuity across turns  
+- Vapi-powered web voice orchestration  
+- Qdrant-backed semantic retrieval  
 - Voice-first accessibility for users preferring speech  
 
 ---
 
 ## 🧘‍♀️ Therapeutic Design Principles
 
-- **Non-directive:** No medical advice or diagnoses  
-- **Validation-focused:** Recognizes and validates feelings  
-- **Strength-based:** Highlights user resilience  
-- **Gentle questioning:** Encourages self-reflection  
-- **Hope-instilling:** Maintains a positive, supportive tone  
+- **Plain-language first:** Avoids jargon and keeps instructions short  
+- **Task-oriented:** Helps users complete a step, not just chat  
+- **Context-aware:** Remembers the last few turns to reduce repetition  
+- **Accessible by design:** Supports voice, text, and multilingual interaction  
+- **Safety-aware:** Escalates to human help when the user may be at risk
 
 ---
 
@@ -117,12 +107,30 @@ User Hears Response
 | **Generative AI** | Firebase Genkit + Google’s Gemini Models |
 | **Conversational AI** | Gemini 2.5 Flash (text) |
 | **Voice Synthesis** | Gemini 2.5 Flash Preview TTS |
+| **Voice Orchestration** | Vapi Web SDK |
+| **Semantic Memory** | Qdrant |
 | **Speech Recognition** | Web Speech API (SpeechRecognition / webkitSpeechRecognition) |
 | **Audio Handling** | WAV encoding & HTML5 Audio API |
 | **Icons** | Lucide React |
 | **State Management** | React Hooks + Context API |
-| **Data Persistence** | Browser Local Storage |
+| **Data Persistence** | Browser session memory + Qdrant retrieval |
 | **Deployment** | Firebase App Hosting |
+
+### Environment Variables
+```env
+GOOGLE_GENAI_API_KEY=your_google_ai_api_key_here
+GOOGLE_API_KEY=your_google_ai_api_key_here
+NEXT_PUBLIC_VAPI_PUBLIC_KEY=your_vapi_public_key_here
+NEXT_PUBLIC_VAPI_ASSISTANT_ID=your_vapi_assistant_id_here
+QDRANT_URL=https://your-cluster.qdrant.io
+QDRANT_API_KEY=your_qdrant_api_key_here
+QDRANT_COLLECTION=manasmitra_memory
+```
+
+### Setup Notes
+- Configure the Vapi assistant in the Vapi dashboard and point it at the same accessibility-focused behavior you want in the app.
+- Create or allow the app to create the Qdrant collection used for semantic memory.
+- If the Vapi variables are missing, the app falls back to the built-in Gemini voice flow.
 
 ---
 

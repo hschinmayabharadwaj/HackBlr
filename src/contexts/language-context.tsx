@@ -115,8 +115,8 @@ const englishTranslations: Record<string, string> = {
   'language.select': 'Select Language',
   
   // Onboarding
-  'onboarding.welcome': 'Welcome to ManasMitra',
-  'onboarding.welcomeDesc': 'Your AI-powered mental wellness companion.',
+  'onboarding.welcome': 'Welcome to ManasMitra Voice Access',
+  'onboarding.welcomeDesc': 'Your voice-first companion for accessible guidance and everyday tasks.',
   'onboarding.getStarted': 'Get Started',
   
   // Progress Page
@@ -137,7 +137,7 @@ const englishTranslations: Record<string, string> = {
   'settings.restartTutorial': 'Restart Tutorial',
   'settings.about': 'About ManasMitra',
   'settings.version': 'Version',
-  'settings.aboutDesc': 'ManasMitra is your AI-powered mental wellness companion.',
+  'settings.aboutDesc': 'ManasMitra is your voice-first AI companion for accessible guidance, translation, and task support.',
   'settings.crisisSupport': 'Crisis Support',
   'settings.crisisSupportDesc': 'If you\'re in crisis, please reach out to:',
   'settings.appInstalled': 'App is installed',
@@ -145,9 +145,9 @@ const englishTranslations: Record<string, string> = {
   'settings.followSteps': 'Follow these steps to add the app to your device',
   
   // Voice Agent
-  'voice.title': 'Voice Companion',
-  'voice.subtitle': 'Talk with ManasMitra using your voice',
-  'voice.placeholder': 'Type your message or use the microphone...',
+  'voice.title': 'Voice Access Companion',
+  'voice.subtitle': 'Ask for plain-language help, translations, summaries, or next steps',
+  'voice.placeholder': 'Say what you need or type a request...',
   'voice.send': 'Send',
   
   // Games

@@ -10,6 +10,7 @@
 
 // ⚠️ Set this to your deployed Python API URL
 const ANALYSIS_API_URL = process.env.ANALYSIS_API_URL || 'http://localhost:5000';
+let hasLoggedBehaviorApiFallback = false;
 
 export interface BehaviorAnalysis {
   label: 'Non-suicidal' | 'Suicidal ideation';
@@ -45,7 +46,11 @@ export async function analyzeUserBehavior(text: string): Promise<BehaviorAnalysi
 
     return await response.json();
   } catch (error) {
-    console.warn('[BehaviorAnalysis] API unreachable, defaulting to safe:', error);
+    if (!hasLoggedBehaviorApiFallback) {
+      const reason = error instanceof Error ? error.message : 'unknown error';
+      console.warn(`[BehaviorAnalysis] API unreachable or unauthorized (${reason}). Defaulting to safe mode.`);
+      hasLoggedBehaviorApiFallback = true;
+    }
     // If the ML API is down, return safe defaults — don't block the chat
     return {
       label: 'Non-suicidal',
