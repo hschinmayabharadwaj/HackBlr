@@ -60,19 +60,15 @@ The app keeps a safety layer for high-risk situations and can redirect users to 
 ---
 
 ## 🧠 Voice Agent Architecture
-User Speech Input
-↓
-Vapi Web Voice Orchestration
-↓
-Assistant Response + Transcript Events
-↓
-Qdrant Memory Retrieval
-↓
-Context-Aware Response Generation
-↓
-Audio Playback / Live Voice Session
-↓
-User Hears Response
+```mermaid
+flowchart TD
+	A[User Speech Input] --> B[Vapi Web Voice Orchestration]
+	B --> C[Assistant Response and Transcript Events]
+	C --> D[Qdrant Memory Retrieval]
+	D --> E[Context-Aware Response Generation]
+	E --> F[Audio Playback or Live Voice Session]
+	F --> G[User Hears Response]
+```
 
 
 ### 🎧 Voice Agent Features  
