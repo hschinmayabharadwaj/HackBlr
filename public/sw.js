@@ -1,7 +1,7 @@
-// ManasMitra Service Worker
+// VoxNava Service Worker
 // Version incremented to force cache refresh
 const CACHE_VERSION = 4;
-const CACHE_NAME = 'manasmitra-v' + CACHE_VERSION;
+const CACHE_NAME = 'voxnava-v' + CACHE_VERSION;
 const OFFLINE_URL = '/offline';
 
 // Assets to cache immediately on install
@@ -258,7 +258,7 @@ self.addEventListener('push', function(event) {
       body: data.body,
       icon: '/icons/icon-192x192.png',
       badge: '/icons/badge-72x72.png',
-      tag: data.tag || 'manasmitra-notification',
+      tag: data.tag || 'voxnava-notification',
       data: data.data,
     })
   );

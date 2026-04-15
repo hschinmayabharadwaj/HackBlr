@@ -1,8 +1,8 @@
-# **App Name**: ManasMitra
+# **App Name**: VoxNava
 
 ## Product Direction
 
-ManasMitra is a voice-first accessibility companion that helps users understand information, follow instructions, and complete everyday workflows through conversation.
+VoxNava is a voice-first accessibility companion that helps users understand information, follow instructions, and complete everyday workflows through conversation.
 
 ## Core Features:
 

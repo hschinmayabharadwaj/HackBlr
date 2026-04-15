@@ -102,7 +102,7 @@ const englishTranslations: Record<string, string> = {
   
   // Theme
   'theme.title': 'Appearance',
-  'theme.description': 'Customize how ManasMitra looks for you.',
+  'theme.description': 'Customize how VoxNava looks for you.',
   'theme.mode': 'Theme Mode',
   'theme.light': 'Light',
   'theme.dark': 'Dark',
@@ -115,7 +115,7 @@ const englishTranslations: Record<string, string> = {
   'language.select': 'Select Language',
   
   // Onboarding
-  'onboarding.welcome': 'Welcome to ManasMitra Voice Access',
+  'onboarding.welcome': 'Welcome to VoxNava Voice Access',
   'onboarding.welcomeDesc': 'Your voice-first companion for accessible guidance and everyday tasks.',
   'onboarding.getStarted': 'Get Started',
   
@@ -128,20 +128,20 @@ const englishTranslations: Record<string, string> = {
   'progress.noDataDesc': 'Complete at least two daily check-ins to see your progress.',
   
   // Settings Page
-  'settings.customizeDesc': 'Customize your ManasMitra experience',
+  'settings.customizeDesc': 'Customize your VoxNava experience',
   'settings.installApp': 'Install App',
-  'settings.installAppDesc': 'Install ManasMitra on your device for quick access and offline support.',
+  'settings.installAppDesc': 'Install VoxNava on your device for quick access and offline support.',
   'settings.viewInstructions': 'View Instructions',
   'settings.tutorial': 'Tutorial',
-  'settings.tutorialDesc': 'View the onboarding tutorial again to learn about ManasMitra\'s features.',
+  'settings.tutorialDesc': 'View the onboarding tutorial again to learn about VoxNava\'s features.',
   'settings.restartTutorial': 'Restart Tutorial',
-  'settings.about': 'About ManasMitra',
+  'settings.about': 'About VoxNava',
   'settings.version': 'Version',
-  'settings.aboutDesc': 'ManasMitra is your voice-first AI companion for accessible guidance, translation, and task support.',
+  'settings.aboutDesc': 'VoxNava is your voice-first AI companion for accessible guidance, translation, and task support.',
   'settings.crisisSupport': 'Crisis Support',
   'settings.crisisSupportDesc': 'If you\'re in crisis, please reach out to:',
   'settings.appInstalled': 'App is installed',
-  'settings.howToInstall': 'How to Install ManasMitra',
+  'settings.howToInstall': 'How to Install VoxNava',
   'settings.followSteps': 'Follow these steps to add the app to your device',
   
   // Voice Agent
@@ -224,7 +224,7 @@ const hindiTranslations: Record<string, string> = {
   'emergency.addContact': 'आपातकालीन संपर्क जोड़ें',
   
   'theme.title': 'दिखावट',
-  'theme.description': 'ManasMitra की दिखावट को अनुकूलित करें।',
+  'theme.description': 'VoxNava की दिखावट को अनुकूलित करें।',
   'theme.mode': 'थीम मोड',
   'theme.light': 'लाइट',
   'theme.dark': 'डार्क',
@@ -234,7 +234,7 @@ const hindiTranslations: Record<string, string> = {
   'language.description': 'अपनी पसंदीदा भाषा चुनें।',
   'language.select': 'भाषा चुनें',
   
-  'onboarding.welcome': 'ManasMitra में आपका स्वागत है',
+  'onboarding.welcome': 'VoxNava में आपका स्वागत है',
   'onboarding.welcomeDesc': 'आपका AI-संचालित मानसिक स्वास्थ्य साथी।',
   'onboarding.getStarted': 'शुरू करें',
   
@@ -245,21 +245,21 @@ const hindiTranslations: Record<string, string> = {
   'progress.noData': 'रुझान दिखाने के लिए पर्याप्त डेटा नहीं।',
   'progress.noDataDesc': 'अपनी प्रगति देखने के लिए कम से कम दो दैनिक चेक-इन पूरा करें।',
   
-  'settings.customizeDesc': 'अपने ManasMitra अनुभव को अनुकूलित करें',
+  'settings.customizeDesc': 'अपने VoxNava अनुभव को अनुकूलित करें',
   'settings.installApp': 'ऐप इंस्टॉल करें',
-  'settings.installAppDesc': 'त्वरित पहुंच के लिए अपने डिवाइस पर ManasMitra इंस्टॉल करें।',
+  'settings.installAppDesc': 'त्वरित पहुंच के लिए अपने डिवाइस पर VoxNava इंस्टॉल करें।',
   'settings.viewInstructions': 'निर्देश देखें',
   'settings.tutorial': 'ट्यूटोरियल',
-  'settings.tutorialDesc': 'ManasMitra की सुविधाओं के बारे में जानने के लिए ट्यूटोरियल देखें।',
+  'settings.tutorialDesc': 'VoxNava की सुविधाओं के बारे में जानने के लिए ट्यूटोरियल देखें।',
   'settings.restartTutorial': 'ट्यूटोरियल पुनः आरंभ करें',
-  'settings.about': 'ManasMitra के बारे में',
+  'settings.about': 'VoxNava के बारे में',
   'settings.version': 'संस्करण',
   'settings.appInstalled': 'ऐप इंस्टॉल है',
-  'settings.howToInstall': 'ManasMitra कैसे इंस्टॉल करें',
+  'settings.howToInstall': 'VoxNava कैसे इंस्टॉल करें',
   'settings.followSteps': 'ऐप को अपने डिवाइस में जोड़ने के लिए इन चरणों का पालन करें',
   
   'voice.title': 'वॉइस साथी',
-  'voice.subtitle': 'अपनी आवाज़ का उपयोग करके ManasMitra से बात करें',
+  'voice.subtitle': 'अपनी आवाज़ का उपयोग करके VoxNava से बात करें',
   'voice.placeholder': 'अपना संदेश टाइप करें या माइक्रोफ़ोन का उपयोग करें...',
   'voice.send': 'भेजें',
   
@@ -338,19 +338,19 @@ const bengaliTranslations: Record<string, string> = {
   'progress.noData': 'প্রবণতা দেখানোর জন্য পর্যাপ্ত তথ্য নেই।',
   'progress.noDataDesc': 'আপনার অগ্রগতি দেখতে কমপক্ষে দুটি দৈনিক চেক-ইন সম্পূর্ণ করুন।',
   
-  'settings.customizeDesc': 'আপনার ManasMitra অভিজ্ঞতা কাস্টমাইজ করুন',
+  'settings.customizeDesc': 'আপনার VoxNava অভিজ্ঞতা কাস্টমাইজ করুন',
   'settings.installApp': 'অ্যাপ ইনস্টল করুন',
-  'settings.installAppDesc': 'দ্রুত অ্যাক্সেসের জন্য আপনার ডিভাইসে ManasMitra ইনস্টল করুন।',
+  'settings.installAppDesc': 'দ্রুত অ্যাক্সেসের জন্য আপনার ডিভাইসে VoxNava ইনস্টল করুন।',
   'settings.viewInstructions': 'নির্দেশাবলী দেখুন',
   'settings.tutorial': 'টিউটোরিয়াল',
-  'settings.tutorialDesc': 'ManasMitra-এর বৈশিষ্ট্যগুলি জানতে টিউটোরিয়াল দেখুন।',
+  'settings.tutorialDesc': 'VoxNava-এর বৈশিষ্ট্যগুলি জানতে টিউটোরিয়াল দেখুন।',
   'settings.restartTutorial': 'টিউটোরিয়াল পুনরায় শুরু করুন',
-  'settings.about': 'ManasMitra সম্পর্কে',
+  'settings.about': 'VoxNava সম্পর্কে',
   'settings.appInstalled': 'অ্যাপ ইনস্টল করা হয়েছে',
-  'settings.howToInstall': 'ManasMitra কিভাবে ইনস্টল করবেন',
+  'settings.howToInstall': 'VoxNava কিভাবে ইনস্টল করবেন',
   
   'voice.title': 'ভয়েস সঙ্গী',
-  'voice.subtitle': 'আপনার ভয়েস ব্যবহার করে ManasMitra-এর সাথে কথা বলুন',
+  'voice.subtitle': 'আপনার ভয়েস ব্যবহার করে VoxNava-এর সাথে কথা বলুন',
   
   'games.title': 'সুস্থতা গেমস',
   'games.subtitle': 'শিথিলকরণ এবং আত্ম-আবিষ্কারের জন্য ইন্টারেক্টিভ কার্যক্রম।',
@@ -422,18 +422,18 @@ const tamilTranslations: Record<string, string> = {
   'progress.noData': 'போக்கைக் காட்ட போதுமான தரவு இல்லை.',
   'progress.noDataDesc': 'உங்கள் முன்னேற்றத்தைப் பார்க்க குறைந்தது இரண்டு தினசரி செக்-இன்களை முடிக்கவும்.',
   
-  'settings.customizeDesc': 'உங்கள் ManasMitra அனுபவத்தைத் தனிப்பயனாக்கவும்',
+  'settings.customizeDesc': 'உங்கள் VoxNava அனுபவத்தைத் தனிப்பயனாக்கவும்',
   'settings.installApp': 'ஆப்பை நிறுவவும்',
-  'settings.installAppDesc': 'விரைவான அணுகலுக்கு உங்கள் சாதனத்தில் ManasMitra-ஐ நிறுவவும்.',
+  'settings.installAppDesc': 'விரைவான அணுகலுக்கு உங்கள் சாதனத்தில் VoxNava-ஐ நிறுவவும்.',
   'settings.viewInstructions': 'வழிமுறைகளைப் பார்',
   'settings.tutorial': 'டுடோரியல்',
   'settings.restartTutorial': 'டுடோரியலை மீண்டும் தொடங்கு',
-  'settings.about': 'ManasMitra பற்றி',
+  'settings.about': 'VoxNava பற்றி',
   'settings.appInstalled': 'ஆப் நிறுவப்பட்டது',
-  'settings.howToInstall': 'ManasMitra-ஐ எவ்வாறு நிறுவுவது',
+  'settings.howToInstall': 'VoxNava-ஐ எவ்வாறு நிறுவுவது',
   
   'voice.title': 'குரல் துணை',
-  'voice.subtitle': 'உங்கள் குரலைப் பயன்படுத்தி ManasMitra-உடன் பேசுங்கள்',
+  'voice.subtitle': 'உங்கள் குரலைப் பயன்படுத்தி VoxNava-உடன் பேசுங்கள்',
   
   'games.title': 'ஆரோக்கிய விளையாட்டுகள்',
   'games.subtitle': 'ஓய்வு மற்றும் சுய-கண்டுபிடிப்புக்கான ஊடாடும் செயல்பாடுகள்.',
@@ -505,18 +505,18 @@ const teluguTranslations: Record<string, string> = {
   'progress.noData': 'ధోరణిని చూపించడానికి తగినంత డేటా లేదు.',
   'progress.noDataDesc': 'మీ పురోగతిని చూడటానికి కనీసం రెండు రోజువారీ చెక్-ఇన్‌లను పూర్తి చేయండి.',
   
-  'settings.customizeDesc': 'మీ ManasMitra అనుభవాన్ని అనుకూలీకరించండి',
+  'settings.customizeDesc': 'మీ VoxNava అనుభవాన్ని అనుకూలీకరించండి',
   'settings.installApp': 'యాప్ ఇన్‌స్టాల్ చేయండి',
-  'settings.installAppDesc': 'త్వరిత యాక్సెస్ కోసం మీ పరికరంలో ManasMitra ఇన్‌స్టాల్ చేయండి.',
+  'settings.installAppDesc': 'త్వరిత యాక్సెస్ కోసం మీ పరికరంలో VoxNava ఇన్‌స్టాల్ చేయండి.',
   'settings.viewInstructions': 'సూచనలు చూడండి',
   'settings.tutorial': 'ట్యుటోరియల్',
   'settings.restartTutorial': 'ట్యుటోరియల్ మళ్ళీ ప్రారంభించండి',
-  'settings.about': 'ManasMitra గురించి',
+  'settings.about': 'VoxNava గురించి',
   'settings.appInstalled': 'యాప్ ఇన్‌స్టాల్ చేయబడింది',
-  'settings.howToInstall': 'ManasMitra ఎలా ఇన్‌స్టాల్ చేయాలి',
+  'settings.howToInstall': 'VoxNava ఎలా ఇన్‌స్టాల్ చేయాలి',
   
   'voice.title': 'వాయిస్ సహచరుడు',
-  'voice.subtitle': 'మీ వాయిస్ ఉపయోగించి ManasMitra తో మాట్లాడండి',
+  'voice.subtitle': 'మీ వాయిస్ ఉపయోగించి VoxNava తో మాట్లాడండి',
   
   'games.title': 'ఆరోగ్య గేమ్‌లు',
   'games.subtitle': 'విశ్రాంతి మరియు స్వీయ-ఆవిష్కరణ కోసం ఇంటరాక్టివ్ కార్యకలాపాలు.',
@@ -588,18 +588,18 @@ const marathiTranslations: Record<string, string> = {
   'progress.noData': 'ट्रेंड दाखवण्यासाठी पुरेसा डेटा नाही.',
   'progress.noDataDesc': 'तुमची प्रगती पाहण्यासाठी किमान दोन दैनिक चेक-इन पूर्ण करा.',
   
-  'settings.customizeDesc': 'तुमचा ManasMitra अनुभव कस्टमाइझ करा',
+  'settings.customizeDesc': 'तुमचा VoxNava अनुभव कस्टमाइझ करा',
   'settings.installApp': 'अॅप इन्स्टॉल करा',
-  'settings.installAppDesc': 'जलद प्रवेशासाठी तुमच्या डिव्हाइसवर ManasMitra इन्स्टॉल करा.',
+  'settings.installAppDesc': 'जलद प्रवेशासाठी तुमच्या डिव्हाइसवर VoxNava इन्स्टॉल करा.',
   'settings.viewInstructions': 'सूचना पहा',
   'settings.tutorial': 'ट्यूटोरियल',
   'settings.restartTutorial': 'ट्यूटोरियल पुन्हा सुरू करा',
-  'settings.about': 'ManasMitra बद्दल',
+  'settings.about': 'VoxNava बद्दल',
   'settings.appInstalled': 'अॅप इन्स्टॉल केले',
-  'settings.howToInstall': 'ManasMitra कसे इन्स्टॉल करायचे',
+  'settings.howToInstall': 'VoxNava कसे इन्स्टॉल करायचे',
   
   'voice.title': 'व्हॉइस साथीदार',
-  'voice.subtitle': 'तुमचा आवाज वापरून ManasMitra शी बोला',
+  'voice.subtitle': 'तुमचा आवाज वापरून VoxNava शी बोला',
   
   'games.title': 'वेलनेस गेम्स',
   'games.subtitle': 'विश्रांती आणि आत्म-शोधासाठी इंटरॅक्टिव्ह क्रियाकलाप.',
@@ -630,7 +630,7 @@ interface LanguageContextType {
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
-const STORAGE_KEY = 'manasmitra_language';
+const STORAGE_KEY = 'voxnava_language';
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const [language, setLanguageState] = useState<Language>('en');

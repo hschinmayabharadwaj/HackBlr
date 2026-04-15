@@ -15,8 +15,8 @@ interface ThemeContextType {
 
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
-const THEME_STORAGE_KEY = 'manasmitra_theme_mode';
-const ACCENT_STORAGE_KEY = 'manasmitra_accent_color';
+const THEME_STORAGE_KEY = 'voxnava_theme_mode';
+const ACCENT_STORAGE_KEY = 'voxnava_accent_color';
 
 // CSS variables for each accent color
 const accentColors: Record<AccentColor, { light: Record<string, string>; dark: Record<string, string> }> = {

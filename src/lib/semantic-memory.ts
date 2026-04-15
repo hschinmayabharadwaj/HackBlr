@@ -2,7 +2,7 @@ import { randomUUID } from 'crypto';
 
 const QDRANT_URL = process.env.QDRANT_URL?.replace(/\/$/, '');
 const QDRANT_API_KEY = process.env.QDRANT_API_KEY;
-const QDRANT_COLLECTION = process.env.QDRANT_COLLECTION ?? 'manasmitra_memory';
+const QDRANT_COLLECTION = process.env.QDRANT_COLLECTION ?? 'voxnava_memory';
 const GOOGLE_API_KEY = process.env.GOOGLE_GENAI_API_KEY ?? process.env.GOOGLE_API_KEY;
 const EMBEDDING_MODEL = 'gemini-embedding-001';
 const EMBEDDING_DIMENSION = 768;

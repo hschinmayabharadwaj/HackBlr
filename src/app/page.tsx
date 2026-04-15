@@ -136,9 +136,9 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    const storedMemoryKey = window.localStorage.getItem('manasmitra-memory-key');
+    const storedMemoryKey = window.localStorage.getItem('voxnava-memory-key');
     const nextMemoryKey = storedMemoryKey || crypto.randomUUID();
-    window.localStorage.setItem('manasmitra-memory-key', nextMemoryKey);
+    window.localStorage.setItem('voxnava-memory-key', nextMemoryKey);
     setMemoryKey(nextMemoryKey);
   }, []);
 
@@ -466,7 +466,7 @@ if (intervention.shouldIntervene) {
                   Speak naturally. Understand instantly. Act with less friction.
                 </h1>
                 <p className="max-w-2xl text-base leading-7 text-muted-foreground md:text-lg">
-                  ManasMitra helps people navigate forms, messages, instructions, and workflows through conversation. It is designed for low-literacy, multilingual, and hands-free use.
+                  VoxNava helps people navigate forms, messages, instructions, and workflows through conversation. It is designed for low-literacy, multilingual, and hands-free use.
                 </p>
                 <div className="flex flex-wrap gap-2 pt-1">
                   <div className="inline-flex items-center gap-2 rounded-full border bg-background/80 px-3 py-1 text-xs font-medium text-foreground/80">

@@ -62,7 +62,7 @@ export async function analyzeUserBehavior(text: string): Promise<BehaviorAnalysi
 }
 
 /**
- * Analyzes a message and determines if ManasMitra should intervene.
+ * Analyzes a message and determines if VoxNava should intervene.
  * Returns intervention details including a compassionate crisis response.
  */
 export async function checkAndIntervene(userMessage: string): Promise<InterventionResult> {

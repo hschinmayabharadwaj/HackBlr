@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { type CheckIn, type Feeling } from '@/lib/types';
 
-const STORAGE_KEY = 'manasmitra-checkins';
+const STORAGE_KEY = 'voxnava-checkins';
 
 export function useCheckIns() {
   const [checkIns, setCheckIns] = useState<CheckIn[]>([]);

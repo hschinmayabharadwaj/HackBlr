@@ -86,7 +86,7 @@ export function AppSidebar() {
           >
             <Sparkles className="h-6 w-6" />
           </motion.div>
-          <h1 className="text-xl font-bold font-headline">ManasMitra</h1>
+          <h1 className="text-xl font-bold font-headline">VoxNava</h1>
         </motion.div>
       </SidebarHeader>
       <SidebarContent>

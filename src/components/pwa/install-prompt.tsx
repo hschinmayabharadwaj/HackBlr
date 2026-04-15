@@ -56,7 +56,7 @@ export function InstallPrompt() {
                     <Smartphone className="w-5 h-5 text-primary" aria-hidden="true" />
                   </div>
                   <div>
-                    <CardTitle className="text-base">Install ManasMitra</CardTitle>
+                    <CardTitle className="text-base">Install VoxNava</CardTitle>
                     <CardDescription className="text-xs">
                       Add to your home screen for quick access
                     </CardDescription>
@@ -89,7 +89,7 @@ export function InstallPrompt() {
           <DialogHeader>
             <DialogTitle>Install on iOS</DialogTitle>
             <DialogDescription>
-              Follow these steps to add ManasMitra to your home screen
+              Follow these steps to add VoxNava to your home screen
             </DialogDescription>
           </DialogHeader>
           <div className="space-y-4 py-4">
@@ -122,7 +122,7 @@ export function InstallPrompt() {
               <div>
                 <p className="font-medium">Tap "Add"</p>
                 <p className="text-sm text-muted-foreground">
-                  ManasMitra will appear on your home screen
+                  VoxNava will appear on your home screen
                 </p>
               </div>
             </div>
@@ -232,7 +232,7 @@ export function InstallButton() {
                   <div>
                     <p className="font-medium">Tap "Add"</p>
                     <p className="text-sm text-muted-foreground">
-                      ManasMitra will appear on your home screen
+                      VoxNava will appear on your home screen
                     </p>
                   </div>
                 </div>
@@ -246,7 +246,7 @@ export function InstallButton() {
                   <div>
                     <p className="font-medium">Chrome / Edge (Desktop)</p>
                     <p className="text-sm text-muted-foreground">
-                      Click the install icon <Download className="w-4 h-4 inline" /> in the address bar, or use menu → "Install ManasMitra"
+                      Click the install icon <Download className="w-4 h-4 inline" /> in the address bar, or use menu → "Install VoxNava"
                     </p>
                   </div>
                 </div>

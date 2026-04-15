@@ -230,7 +230,7 @@ export default function LoginPage() {
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
           <CardTitle className="text-2xl font-headline">
-            Welcome to ManasMitra Voice Access
+            Welcome to VoxNava Voice Access
           </CardTitle>
           <CardDescription>
             Sign in or create an account to continue

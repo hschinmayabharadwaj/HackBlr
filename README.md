@@ -1,13 +1,13 @@
-# 🧠 ManasMitra: A Voice-First Accessibility Companion
+# 🧠 VoxNava: A Voice-First Accessibility Companion
 
-**ManasMitra** is a voice-first AI companion designed to help people understand information, complete tasks, and access digital services with less friction.  
+**VoxNava** is a voice-first AI companion designed to help people understand information, complete tasks, and access digital services with less friction.  
 It supports plain-language conversation, multilingual assistance, contextual follow-up, and hands-free interaction.
 
 ---
 
 ## 🌿 Overview
 
-ManasMitra goes beyond traditional chatbots — it’s built as an **Agentic AI System**, a network of specialized AI agents working collaboratively to enhance accessibility, context-aware guidance, and real-world task completion.
+VoxNava goes beyond traditional chatbots — it’s built as an **Agentic AI System**, a network of specialized AI agents working collaboratively to enhance accessibility, context-aware guidance, and real-world task completion.
 
 ---
 
@@ -32,7 +32,7 @@ The app keeps a safety layer for high-risk situations and can redirect users to 
 
 ## 🤖 Agentic AI System
 
-### What Makes ManasMitra Agentic
+### What Makes VoxNava Agentic
 - 🧩 **Autonomous Decision-Making:** The assistant adapts responses based on the user’s task and context.  
 - 🎯 **Goal-Oriented Behavior:** The system focuses on helping users understand, decide, and act.  
 - 🧠 **Multi-Agent Collaboration:** Specialized flows handle voice input, speech output, safety, and contextual responses.  
@@ -54,7 +54,7 @@ The app keeps a safety layer for high-risk situations and can redirect users to 
 ### Agent Collaboration  
 - ⚙️ **Action Layer:** Coordinates communication among agents  
 - 🔁 **Context Sharing:** Shared memory of user interactions  
-- 💖 **Unified Personality:** All agents reflect the same empathetic “ManasMitra” identity  
+- 💖 **Unified Personality:** All agents reflect the same empathetic “VoxNava” identity  
 - 🚨 **Crisis Protocol:** Any agent can trigger professional helpline suggestions  
 
 ---
@@ -124,7 +124,7 @@ NEXT_PUBLIC_VAPI_PUBLIC_KEY=your_vapi_public_key_here
 NEXT_PUBLIC_VAPI_ASSISTANT_ID=your_vapi_assistant_id_here
 QDRANT_URL=https://your-cluster.qdrant.io
 QDRANT_API_KEY=your_qdrant_api_key_here
-QDRANT_COLLECTION=manasmitra_memory
+QDRANT_COLLECTION=voxnava_memory
 ```
 
 ### Setup Notes
@@ -136,7 +136,7 @@ QDRANT_COLLECTION=manasmitra_memory
 
 ## 🧩 System Architecture Diagram
 
-![ManasMitra Agentic AI Architecture](https://via.placeholder.com/1200x700.png?text=Agentic+AI+System+Architecture+Diagram)
+![VoxNava Agentic AI Architecture](https://via.placeholder.com/1200x700.png?text=Agentic+AI+System+Architecture+Diagram)
 
 *(Replace the above link with your actual architecture diagram image once ready.)*
 
@@ -153,13 +153,13 @@ QDRANT_COLLECTION=manasmitra_memory
 
 ```bash
 # Clone the repository
-git clone https://github.com/SKPrxv/ManasMitra.git
+git clone https://github.com/SKPrxv/VoxNava.git
 
 # Switch to the Bhanu branch
 git checkout Bhanu
 
 # Navigate into the project directory
-cd ManasMitra
+cd VoxNava
 
 # Install dependencies
 npm install

@@ -5,26 +5,26 @@ import { FirebaseClientProvider } from '@/firebase';
 import { AppProviders } from '@/components/providers/app-providers';
 
 export const metadata: Metadata = {
-  title: 'ManasMitra - Voice Access Companion',
+  title: 'VoxNava - Voice Access Companion',
   description: 'A voice-first AI companion for accessibility, guided workflows, multilingual support, and context-aware assistance.',
   manifest: '/manifest.json',
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
-    title: 'ManasMitra',
+    title: 'VoxNava',
   },
   formatDetection: {
     telephone: false,
   },
   openGraph: {
     type: 'website',
-    siteName: 'ManasMitra',
-    title: 'ManasMitra - Voice Access Companion',
+    siteName: 'VoxNava',
+    title: 'VoxNava - Voice Access Companion',
     description: 'A voice-first AI companion for accessibility and real-world tasks',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ManasMitra',
+    title: 'VoxNava',
     description: 'A voice-first AI companion for accessibility and real-world tasks',
   },
 };
